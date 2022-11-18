@@ -3,8 +3,3 @@
 __pycache__
 .pytest_cache
 .class
-.DS_Store
-.vscode
-__pycache__
-.pytest_cache
-.class
