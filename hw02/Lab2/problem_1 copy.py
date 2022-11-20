@@ -12,7 +12,9 @@ def main():
     annual_salary = float(input("How much you make annually? \n"))
     months = 12
     down_payment_percent = 0.25
-    monthly_savings_rate = float(input("How many percent you can save from the monthly salary? \n Please enter a number between 0 and 1 e.g. 0.1 for 10% \n"))
+    monthly_savings_rate = float(input("How many percent you can save from \
+the monthly salary? \n \
+Please enter a number between 0 and 1 e.g. 0.1 for 10% \n"))
     remaining_price = total_price * (1 - down_payment_percent)
     monthly_savings = annual_salary * monthly_savings_rate / months
 
@@ -23,8 +25,10 @@ def main():
 
     print("How much the user needs for the down payment? \n", down_payment)
     print("How much money the user saves per month? \n", monthly_savings)
-    print("How many months it will take to save enough for the down payment?\n", months_for_down_payment)
-    print("How many years + months that is?\n", str(years_for_down_payment), "years and", str(months_miunus_years), "months")
+    print("How many months it will take for the down payment?\n",
+          months_for_down_payment)
+    print("How many years + months that is?\n", str(years_for_down_payment),
+          "years and", str(months_miunus_years), "months")
 
 
 if __name__ == '__main__':
