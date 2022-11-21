@@ -59,7 +59,6 @@ def main():
             print("Swim for 45 minutes")
         else:
             print("Swim for 35 minutes")
-
     else:
         print("Swim for 35 minutes")
 
