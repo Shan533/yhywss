@@ -15,6 +15,5 @@ def main():
         print(origin)
 
 
-
 if __name__ == '__main__':
     main()

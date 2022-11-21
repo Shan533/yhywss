@@ -21,12 +21,14 @@ def main():
 
     is_combo = cheeseburgers > 0 and fries > 0
 
-    if day == "M" or day == "TU" or day == "W" or day == "TH" or day == "F" and not is_combo:
+    if day == "M" or day == "TU" or day == "W" or day == "TH" or day == "F" \
+       and not is_combo:
         subtotal = cheeseburgers * CHEESEBURGER_PRICE + fries * FRIES_PRICE
         price_after_discount = subtotal * DAY_DISCOUNT
         total_after_tax = price_after_discount * TAX
         print("Total: ${:.2f}".format(total_after_tax))
-    elif day == "M" or day == "TU" or day == "W" or day == "TH" or day == "F" and is_combo:
+    elif day == "M" or day == "TU" or day == "W" or day == "TH" or day == "F" \
+                and is_combo:
         subtotal = cheeseburgers * CHEESEBURGER_PRICE + fries * FRIES_PRICE
         price_after_discount = subtotal * DAY_DISCOUNT
         total_after_tax = price_after_discount * TAX

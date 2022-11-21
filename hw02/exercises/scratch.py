@@ -1,5 +1,5 @@
 def main():
-    
+
     is_moving = input("does it move? \n")
     is_moving = is_moving.lower()
 
@@ -7,9 +7,9 @@ def main():
         is_moving = "y"
     elif is_moving == "no" or is_moving == "n":
         is_moving = "n"
-    else: 
+    else:
         print("invalid input \n")
-        
+
     should_moving = input("Should it? \n")
     should_moving = should_moving.lower()
 
@@ -19,14 +19,14 @@ def main():
         should_moving = "n"
     else:
         print("invalid input \n")
-        
+
     exit
-        
+
     if is_moving == should_moving:
         print("No Problem!")
     elif is_moving == "y" and should_moving == "n":
         print("Use duct tape")
-        
+
     else:
         print("Use WD-40")
 

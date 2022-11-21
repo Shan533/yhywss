@@ -7,7 +7,7 @@ def main():
         is_moving = True
     elif is_moving == "no" or is_moving == "n":
         is_moving = False
-    else: 
+    else:
         print("invalid input \n")
 
     should_moving = input("Should it? \n")

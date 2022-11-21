@@ -8,7 +8,7 @@ def main():
     print(capital)
     print(replace)
     print(swap)
-    
-    
+
+
 if __name__ == "__main__":
     main()
