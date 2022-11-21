@@ -25,7 +25,7 @@ def main():
     day = day_raw.lower()
     holidays = holidays_raw.lower()
     raining = raining_raw.lower()
-    temperature = temperature_raw.lower()
+    temperature = int(temperature_raw.lower())
 
     if holidays == "n":
         if day == "tu" or day == "th" or day == "su":
@@ -43,19 +43,14 @@ def main():
                         print("Run for 45 minutes")
                     else:
                         print("Swim for 35 minutes")
-
                 elif day == "sa":
                     print("Hike for 45 minutes")
-
                 else:
                     print("Swim for 35 minutes")
-
             else:
                 print("Swim for 35 minutes")
-
         else:
             print("Swim for 35 minutes")
-
     elif holidays == "y":
         workout = True
         if raining == "n":
@@ -64,6 +59,9 @@ def main():
             print("Swim for 45 minutes")
         else:
             print("Swim for 35 minutes")
+
+    else:
+        print("Swim for 35 minutes")
 
 
 if __name__ == '__main__':
