@@ -12,7 +12,7 @@ def main():
                        number from 0 to 1 \n"))
     persons = float(input("how many people were this bill with? \n"))
 
-    total_bill = amount + tips
+    total_bill = amount * (1 + tips)
     bill_per_person = total_bill / persons
 
     print("the bill for each person is", round(bill_per_person, 2))
