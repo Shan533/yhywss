@@ -80,7 +80,7 @@ def calculation(start_position, end_position):
 '''
 
 
-def get_sum_stops(start, end):
+def get_num_stops(start, end):
     if start in LINK_STATIONS and end in LINK_STATIONS:
         for i, station in enumerate(LINK_STATIONS):
             if start == station:
@@ -102,9 +102,9 @@ def main():
     print("your direction is: \n", direction)
 
     if direction == "Northbound":
-        sum_stops = get_sum_stops(start, end)
+        sum_stops = get_num_stops(start, end)
     elif direction == "Southbound":
-        sum_stops = get_sum_stops(end, start)
+        sum_stops = get_num_stops(end, start)
     else:
         sum_stops = 0
     print("your number of stops is: \n", sum_stops)
