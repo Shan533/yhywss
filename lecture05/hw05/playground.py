@@ -1,3 +1,4 @@
-x = " ggsja  j "
-print(x.strip())
-print(x)
+x = "asvascmasbcx"
+y = x[::-1]
+print(y)
+print(x[1])
