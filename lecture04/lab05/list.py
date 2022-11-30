@@ -12,7 +12,7 @@ campuses.append("london")
 
 for i, city in enumerate(campuses):
     print("the campus", i + 1, "is in", city)
-    
+
 campuses.insert(0, "toronto")
 
 for i, city in enumerate(campuses):
@@ -27,6 +27,6 @@ output_3 = "seattle" in campuses
 print(output, output_2, output_3)
 
 jeep = campuses.pop(0)
-print("jeep=", jeep)
+print("jeep =", jeep)
 audi = campuses.pop()
 print(audi)
