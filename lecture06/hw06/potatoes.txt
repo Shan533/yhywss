@@ -1,0 +1,11 @@
+lecture06/hw06/potatoes.txt
+
+Ingredients
+
+1 baicai
+2 potatoes
+
+Time: 333 minutes
+
+Directions:
+123
