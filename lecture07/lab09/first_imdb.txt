@@ -1,0 +1,6 @@
+first line of text of.\t0\n
+second line.\t0\n
+thrid line.\t0\n
+fourth line.\t0\n
+fifth line.\t0\n
+the last.\t0\n
