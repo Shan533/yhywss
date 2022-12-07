@@ -9,14 +9,14 @@ def draw_triangle(pen, size):
         pen.forward(size)
         pen.left(ANGLE)
     pen.penup()
-    
+
 
 def draw_circle(pen, size):
     pen.pendown()
     pen.circle(size)
     pen.penup()
 
- 
+
 def main():
     turtle.setup(420, 420)
     turtle.screensize = (400, 400)
